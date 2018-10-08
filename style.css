@@ -70,16 +70,14 @@ body
     opacity: 0.6;
     z-index: -5;
 }
-
+/*************************************************************************/
 .topMenu
 {
     position: relative;
     text-align: center;
     list-style: none;
-    color: white;
 
     top: 30px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .topMenu li
@@ -87,8 +85,44 @@ body
     display: inline;
     padding: 12px;
 
+    color: white;
+
     border: white;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+}
 
+.topMenu li a
+{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 0px;
+    transition: 0.15s;
+    font-weight: normal;
+}
+
+.topMenu li a:hover
+{
+    color: #ffff00;
+    transition: 0.2s;
+}
+/*****************************************************************/
+.sideMenu
+{
+
+}
+
+.sideMenu li
+{
+
+}
+
+.sideMenu li a
+{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: right;
 }
