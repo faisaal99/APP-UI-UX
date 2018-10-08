@@ -51,20 +51,24 @@ table {
 
 body 
 {
+    /*background-image: url("images/glow.png");
+    background-repeat: no-repeat;
+    background-position: top;*/
+    background-color: #151515;
+    
+}
+
+.backgroundImg
+{
+    position: absolute;
     background-image: url("images/glow.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-color: #151515;
-}
 
-#backgroundImage
-{
-    position: relative;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0);
-    opacity: 0.5;
-    
+    height: 638px;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -5;
 }
 
 h1
